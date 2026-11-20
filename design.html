@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1600, initial-scale=1">
+  <title>WASTED — 3 Years Waiting for GTA 6</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { width: 1600px; height: 1600px; margin: 0; overflow: hidden; background: #160f27; }
+    svg { display: block; width: 1600px; height: 1600px; }
+    text { font-family: Impact, "Arial Narrow", sans-serif; }
+  </style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-label="GTA-style WASTED screen: three years waiting for GTA 6, with the make.fun ghost already paid on the curb">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#170f32"/>
+      <stop offset=".48" stop-color="#573263"/>
+      <stop offset=".78" stop-color="#ee785a"/>
+      <stop offset="1" stop-color="#ffb271"/>
+    </linearGradient>
+    <linearGradient id="road" x2="0" y2="1">
+      <stop stop-color="#292035"/>
+      <stop offset="1" stop-color="#110f1a"/>
+    </linearGradient>
+    <linearGradient id="curb" x2="0" y2="1">
+      <stop stop-color="#f7c1a4"/>
+      <stop offset="1" stop-color="#7b5566"/>
+    </linearGradient>
+    <radialGradient id="vignette">
+      <stop offset=".53" stop-color="#05020c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#05020c" stop-opacity=".8"/>
+    </radialGradient>
+    <filter id="titleShadow" x="-.1" y="-.3" width="1.2" height="1.8">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="blur"/>
+      <feOffset dy="13" result="offset"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".8"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="neon" x="-.5" y="-.5" width="2" height="2">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sunset over a quiet Vice City block. -->
+  <rect width="1600" height="1600" fill="url(#sky)"/>
+  <circle cx="1190" cy="520" r="155" fill="#ffb87b" opacity=".22" filter="url(#neon)"/>
+  <circle cx="1190" cy="520" r="112" fill="#ffcf91" opacity=".88"/>
+  <path d="M0 725h115v-90h74v90h71V585h96v140h57V658h104v67h70V550h95v175h68V625h79v100h82V575h91v150h82v-92h82v92h94v-46h87v46h83v86H0z" fill="#29203c" opacity=".9"/>
+  <path d="M0 745h1600v98H0z" fill="#ed8b76" opacity=".27"/>
+
+  <!-- Palm silhouettes frame the street. -->
+  <g fill="none" stroke="#21182e" stroke-linecap="round">
+    <path d="M117 835Q136 665 118 526" stroke-width="20"/>
+    <path d="M118 535Q68 478 21 492M118 535Q56 528 20 571M118 535Q90 464 78 414M118 535Q143 466 182 432M118 535Q173 510 222 520M118 535Q169 557 195 596" stroke-width="15"/>
+    <path d="M1510 842Q1480 668 1506 530" stroke-width="20"/>
+    <path d="M1506 540Q1450 484 1404 494M1506 540Q1453 543 1410 583M1506 540Q1492 465 1474 423M1506 540Q1541 465 1585 440M1506 540Q1562 512 1599 523M1506 540Q1555 562 1580 600" stroke-width="15"/>
+  </g>
+
+  <!-- Asphalt, sidewalk, and a curb to sit on. -->
+  <path d="M0 830h1600v510H0z" fill="url(#road)"/>
+  <path d="M0 1340H1600v72H0z" fill="#463346"/>
+  <path d="M0 1340H1600v18H0z" fill="url(#curb)"/>
+  <path d="M0 1412H1600" stroke="#090910" stroke-width="9" opacity=".8"/>
+  <path d="M75 1490h350m170 0h290m190 0h290" stroke="#d28e7b" stroke-width="15" opacity=".35" stroke-linecap="round"/>
+  <path d="M1030 1365h510" stroke="#ff4fa9" stroke-width="10" opacity=".45" filter="url(#neon)"/>
+
+  <!-- Big, unmistakable GTA death-screen lettering. -->
+  <g filter="url(#titleShadow)">
+    <text x="800" y="665" text-anchor="middle" textLength="1290" lengthAdjust="spacingAndGlyphs"
+      fill="#d7d9df" stroke="#292332" stroke-width="17" paint-order="stroke fill"
+      font-size="260" font-weight="900" letter-spacing="-7">WASTED</text>
+  </g>
+  <text x="800" y="760" text-anchor="middle" textLength="850" lengthAdjust="spacingAndGlyphs"
+    fill="#fff0e6" stroke="#2a2032" stroke-width="8" paint-order="stroke fill"
+    font-size="48" font-weight="bold" letter-spacing="5">3 YEARS WAITING FOR GTA 6</text>
+
+  <!-- The original make.fun ghost mark, seated over the curb. -->
+  <image href="file:///home/hatch/workspace/makefun/gta6-meme-x-01/assets/ghost-mark-1024.png"
+    x="1010" y="820" width="540" height="540" preserveAspectRatio="xMidYMid meet"/>
+  <!-- Sunglasses make the ghost read as the player who survived the wait. -->
+  <g transform="translate(1010 820) scale(.52734)" fill="#100d18" stroke="#08070c" stroke-width="20">
+    <path d="M365 385h112l-9 61q-5 30-43 30-38 0-49-30z"/>
+    <path d="M495 385h112l-11 61q-8 30-44 30-38 0-48-30z"/>
+    <path d="M477 402h20" fill="none" stroke-width="17"/>
+    <path d="M370 394l20 4m196-4-20 4" fill="none" stroke="#a9e8ff" stroke-width="8" opacity=".8"/>
+  </g>
+
+  <!-- Oversized phone held up beside the mascot; its offer stays legible at feed size. -->
+  <g transform="translate(828 1125) rotate(-8 128 165)">
+    <rect x="0" y="0" width="245" height="330" rx="32" fill="#111019" stroke="#fff5eb" stroke-width="11"/>
+    <rect x="17" y="24" width="211" height="274" rx="17" fill="#27152f" stroke="#f35aa9" stroke-width="6"/>
+    <rect x="87" y="10" width="70" height="8" rx="4" fill="#b8adb9"/>
+    <text x="122" y="132" text-anchor="middle" fill="#fff4ed" font-size="49" font-weight="bold" letter-spacing="2">PAID</text>
+    <text x="122" y="207" text-anchor="middle" fill="#ff68b5" font-size="65" font-weight="bold">$500</text>
+    <text x="122" y="262" text-anchor="middle" fill="#fff4ed" font-size="24" font-weight="bold" textLength="190" lengthAdjust="spacingAndGlyphs">WON BY MY AI AGENT</text>
+    <text x="122" y="77" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="bold" textLength="190" lengthAdjust="spacingAndGlyphs">MAKE.FUN</text>
+    <circle cx="122" cy="315" r="6" fill="#8d7e91"/>
+  </g>
+
+  <!-- The curb-contact shadow anchors the ghost and phone to their seat. -->
+  <ellipse cx="1190" cy="1400" rx="350" ry="28" fill="#08070f" opacity=".72"/>
+  <path d="M0 1425H1600" stroke="#524154" stroke-width="4" opacity=".5"/>
+
+  <!-- Soft edge falloff keeps the high-contrast caption readable in a small feed preview. -->
+  <rect width="1600" height="1600" fill="url(#vignette)"/>
+</svg>
+</body>
+</html>
