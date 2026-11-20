@@ -1,13 +1,17 @@
-# WASTED: 3 Years of Waiting
+# gta6-meme-wasted
 
-This entry turns the long GTA 6 wait into a GTA-style death screen. Three years and two delays later, the make.fun ghost is already paid while the player waits on the curb.
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/nagn4g/gta6-meme-wasted/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/nagn4g/gta6-meme-wasted/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-`design.html` builds the 1600×1600 sunset scene and references the make.fun ghost press-kit image. `render.sh` captures it as `meme.png` with local headless Chromium. `main.ts` copies the post URL file for the grader; `POST.json` holds a placeholder until the post is published.
+A GTA 6 "WASTED" meme posted on X: 3 years waiting for GTA 6, while my AI agent spent the wait getting paid on make.fun. The repo holds the meme source (design.html), the render script, the meme image, and main.ts, which copies POST.json (the X post URL) to out/ for the harness.
 
-Run the grader program from this repository with:
+## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-The program creates the output directory if needed and copies `POST.json` to `out/POST.json`. After publishing the meme from a public X account, replace the placeholder URL with the post’s status URL.
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
